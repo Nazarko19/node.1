@@ -19,10 +19,10 @@ fs.readdir(boysPath,((err, files) => {
               if (err2) {
                  console.log(err2);
               }
-           }))
+           }));
         }
-     }))
-   })
+     }));
+   });
    fs.readdir(girlPath,((err1, files1) => {
       files1.forEach(file=>{
 
@@ -34,13 +34,13 @@ fs.readdir(boysPath,((err, files) => {
                   if (err2) {
                      console.log(err2);
                   }
-               }))
+               }));
             }
-         }))
-      })
-   }))
+         }));
+      });
+   }));
 
-}))
+}));
 
 
 
